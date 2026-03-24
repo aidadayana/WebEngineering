@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Details Form</title>
+</head>
+<body>
+
+    <div style="border: 1px solid black; padding: 20px; width: 700px; margin: 0 auto;">
+        
+        <h2 style="text-align: center;">Your Personal Details</h2>
+
+        <form>
+            <table cellpadding="5">
+                <tr>
+                    <td><b>Your name:</b></td>
+                    <td><input type="text" name="fullName" size="50"></td> 
+                </tr>
+                
+                <tr>
+                    <td><b>Student number:</b></td>
+                    <td><input type="text" name="studentId" size="25"></td>
+                </tr>
+                
+                <tr>
+                    <td><b>Program:</b></td>
+                    <td>
+                        <select name="program">
+                            <option>Bachelor of Computer Science (Software Engineering) with Honours</option>
+                            <option>Diploma in Computer Science</option>
+                        </select>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td><b>Gender:</b></td>
+                    <td>
+                        <input type="radio" name="gender" value="Male"> Male 
+                        <input type="radio" name="gender" value="Female"> Female
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td><b>Hobby:</b></td>
+                    <td>
+                        <input type="checkbox" name="hobby" value="Reading"> Reading 
+                        <input type="checkbox" name="hobby" value="Outdoor"> Outdoor Activities 
+                        <input type="checkbox" name="hobby" value="TV"> Watching TV 
+                        <input type="checkbox" name="hobby" value="Sleeping"> Sleeping
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td valign="top"><b>Comments:</b></td>
+                    <td>
+                        <textarea name="comments" rows="3" cols="30"></textarea>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+    </div>
+
+</body>
+</html>
