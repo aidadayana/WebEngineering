@@ -1,0 +1,42 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header image */
+header{
+    background-image:url("bg-header.jpg");
+    height:120px;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+/* Footer image */
+footer{
+    background-image:url("bg-footer.jpg");
+    height:80px;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+/* Content area */
+.content{
+    width:650px;
+    margin:auto;
+    padding:20px;
+}
+
+/* Question 1 - H1 style */
+h1{
+    font-family: Arial, sans-serif;
+    color:#2d890e;
+}
+
+/* Question 2 & 3 - Paragraph styling */
+p{
+    text-align:justify;
+    line-height:1.6;
+    font-size:16px;
+    color:#080808;
+    margin-bottom:15px;
+}
