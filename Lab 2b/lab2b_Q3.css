@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER IMAGE */
+header {
+    background-image: url("bg-header.jpg");
+    height: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* FOOTER IMAGE */
+footer {
+    background-image: url("bg-footer.jpg");
+    height: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* CONTENT AREA */
+.content {
+    width: 650px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* H1 STYLE: Green text with red dotted border */
+h1 {
+    font-family: Arial, sans-serif;
+    color: #008000;
+    border: 2px dotted #cc0000;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/* PARAGRAPH 1: Red dotted border */
+.p1 {
+    border: 2px dotted #cc0000;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* PARAGRAPH 2: Double black border */
+.p2 {
+    border: 3px double #333;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* PARAGRAPH 3: Blue dashed border with rounded corners */
+.p3 {
+    border: 2px dashed #0000ee;
+    border-radius: 15px; /* Creates the rounded corners */
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.4;
+}
