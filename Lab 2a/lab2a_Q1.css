@@ -1,0 +1,92 @@
+body{
+margin:0;
+font-family: 'Times New Roman', Times, serif;
+}
+
+/* Navigation */
+nav{
+background:white;
+padding:10px;
+}
+
+nav ul{
+list-style:none;
+margin:0;
+padding:0;
+}
+
+nav ul li{
+display:inline;
+margin-right:25px;
+}
+
+nav ul li a{
+text-decoration:none;
+color:black;
+font-weight:bold;
+}
+
+nav ul li a:hover{
+color:#1abc9c;
+}
+
+/* Banner image */
+.banner{
+background:url("fkom.png");
+background-size:cover;
+background-position:center;
+color:white;
+}
+
+.overlay{
+background:rgba(0,0,0,0.5);
+padding:40px;
+}
+
+/* Highlight Faculty of Computing */
+.faculty{
+font-size:20px;
+}
+
+/* White line */
+.line{
+border:none;
+height:2px;
+background:white;
+margin:20px 0;
+}
+
+/* Facts section */
+.facts{
+display:flex;
+gap:80px;
+margin-top:20px;
+}
+
+.fact h2{
+font-size:45px;
+margin:0;
+}
+
+/* Programs */
+.programs{
+background:#69c3a5;
+padding:30px;
+}
+
+.program-section {
+    margin-left: 20px;
+}
+
+.program-section li {
+    list-style-type: disc;   /* same solid bullet for all */
+    color: black;
+    margin-bottom: 5px;
+}
+
+/* Footer */
+footer{
+text-align:center;
+padding:10px;
+background:#f2f2f2;
+}
