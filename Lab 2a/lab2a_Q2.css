@@ -1,0 +1,58 @@
+body{
+    background-color:#e6e6e6;
+    font-family:Arial, sans-serif;
+}
+
+.title{
+    text-align:center;
+    color:#8fbf3f;
+}
+
+.cv-table{
+    width:70%;
+    margin:auto;
+    border-collapse:collapse;
+    background:white;
+}
+
+.cv-table th,
+.cv-table td{
+    border:3px solid #8fbf3f;
+    padding:8px;
+}
+
+.section{
+    background:#8fbf3f;
+    color:white;
+    text-align:center;
+    font-weight:bold;
+}
+
+.label{
+    font-weight:bold;
+}
+
+.photo{
+    text-align:center;
+    vertical-align:middle;
+}
+
+.photo img{
+    width:120px;
+    height:auto;
+}
+
+.hobby{
+    list-style: none;
+    padding-left: 0;
+}
+
+.hobby li{
+    color: black;    
+    margin: 5px 0;
+}
+
+.hobby li::before{
+    content: "✽ ";
+    color: #2c7fb8;  
+}
