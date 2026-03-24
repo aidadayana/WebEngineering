@@ -1,0 +1,60 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:#ffffff;
+}
+
+/* HEADER IMAGE */
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header image */
+header{
+    background-image:url("bg-header.jpg");
+    height:120px;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+/* Footer image */
+footer{
+    background-image:url("bg-footer.jpg");
+    height:80px;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+/* CONTENT AREA */
+.container{
+    width:600px;
+    margin:auto;
+    padding:15px;
+}
+
+
+h1{
+    font-family: Arial, sans-serif;
+    color:#2e8b57;
+    font-size:28px;
+}
+
+/* QUESTION 2 - TEXT STYLE */
+.intro{
+    color:blue;
+    font-size:14px;
+}
+
+/* NORMAL PARAGRAPH */
+p{
+    text-align:justify;
+    font-size:14px;
+
+}
+
+.highlight{
+    border-radius:10px;
+    color:#0e0e0e;
+    font-weight: 700; 
+}
